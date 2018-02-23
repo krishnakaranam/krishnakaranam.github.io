@@ -8,6 +8,14 @@ function closeSlideMenu(){
       document.getElementById('main').style.marginLeft = '0';
 }
 
+function enlarge(){
+	  if(document.getElementById('feedtext1').style.height!='auto'){
+      document.getElementById('feedtext1').style.height='auto';
+	  } else {
+	  document.getElementById('feedtext1').style.height='7vh';
+	  }
+}
+
 function openWritePost(){
 	  document.getElementById("textpost").rows = "10";
 	  document.getElementById('writepost').style.height='65vh';
