@@ -33,3 +33,45 @@ function closeWritePost(){
 	  document.getElementById('sharebt').style.visibility='hidden';
 	  document.getElementById('shpost').style.visibility='hidden';
 }
+
+
+
+function facebookLike(){
+    document.getElementById("likenum").innerHTML = parseInt(document.getElementById("likenum").innerHTML)+1;
+}
+
+function facebookLike2(){
+    document.getElementById("likenum2").innerHTML = parseInt(document.getElementById("likenum2").innerHTML)+1;
+}
+
+function facebookShare(){
+    document.getElementById("sharenum").innerHTML = parseInt(document.getElementById("sharenum").innerHTML)+1;
+}
+
+function facebookShare2(){
+    document.getElementById("sharenum2").innerHTML = parseInt(document.getElementById("sharenum2").innerHTML)+1;
+}
+
+function twitLike(){
+    document.getElementById("tweetlikenum").innerHTML = parseInt(document.getElementById("tweetlikenum").innerHTML)+1;
+}
+
+function twitLike2(){
+    document.getElementById("tweetlikenum2").innerHTML = parseInt(document.getElementById("tweetlikenum2").innerHTML)+1;
+}
+
+function twitShare(){
+    document.getElementById("twitsharenum").innerHTML = parseInt(document.getElementById("twitsharenum").innerHTML)+1;
+}
+
+function twitShare2(){
+    document.getElementById("twitsharenum2").innerHTML = parseInt(document.getElementById("twitsharenum2").innerHTML)+1;
+}
+
+function clap(){
+    document.getElementById("clapcirclelikenum").innerHTML = parseInt(document.getElementById("clapcirclelikenum").innerHTML)+1;
+}
+
+function clap2(){
+    document.getElementById("clapcirclelikenum2").innerHTML = parseInt(document.getElementById("clapcirclelikenum2").innerHTML)+1;
+}
