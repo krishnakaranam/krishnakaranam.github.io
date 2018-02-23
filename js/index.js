@@ -10,7 +10,7 @@ function closeSlideMenu(){
 
 function openWritePost(){
 	  document.getElementById("textpost").rows = "10";
-	  document.getElementById('writepost').style.height='64vh';
+	  document.getElementById('writepost').style.height='65vh';
 	  document.getElementById('closepost').style.visibility='visible';
 	  document.getElementById('blackline').style.visibility='visible';
 	  document.getElementById('fbicon').style.visibility='visible';
@@ -23,7 +23,7 @@ function openWritePost(){
 
 function closeWritePost(){
 	  document.getElementById("textpost").rows = "2";
-	  document.getElementById('writepost').style.height='24vh';
+	  document.getElementById('writepost').style.height='25vh';
 	  document.getElementById('closepost').style.visibility='hidden';
 	  document.getElementById('blackline').style.visibility='hidden';
 	  document.getElementById('fbicon').style.visibility='hidden';
