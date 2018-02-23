@@ -255,6 +255,22 @@ input[type=checkbox] {
   font-family: 'PT Sans', sans-serif;
 }
 
+.feed .clapcirclelike {
+  position: absolute;
+  font-size:7vw;
+  color: #3c16a5;
+  margin: -10vh 82vw;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.feed .clapcirclelikenum {
+  position: absolute;
+  font-size:3vw;
+  color: #ffffff;
+  margin: -8.5vh 83.5vw;
+  font-family: 'PT Sans', sans-serif;
+}
+
 .feed .clap {
   position: absolute;
   font-size: 8vw;
@@ -299,11 +315,25 @@ input[type=checkbox] {
   margin: 1vh 10vw;
 }
 
+.feed .likenum {
+  position: absolute;
+  font-size: 4vw;
+  color: #2169dd;
+  margin: 0.1vh 17vw;
+}
+
 .feed .share {
   position: absolute;
   font-size: 7vw;
   color: #2169dd;
   margin: 1vh 40vw;
+}
+
+.feed .sharenum {
+  position: absolute;
+  font-size: 4vw;
+  color: #2169dd;
+  margin: 0.1vh 47vw;
 }
 
 .feed .open {
@@ -320,11 +350,25 @@ input[type=checkbox] {
   margin: 1vh 10vw;
 }
 
+.feed .tweetlikenum {
+  position: absolute;
+  font-size: 4vw;
+  color: #1dace0;
+  margin: 0.1vh 17vw;
+}
+
 .feed .twitshare {
   position: absolute;
   font-size: 7vw;
   color: #1dace0;
   margin: 1vh 40vw;
+}
+
+.feed .twitsharenum {
+  position: absolute;
+  font-size: 4vw;
+  color: #1dace0;
+  margin: 0.1vh 47vw;
 }
 
 .feed .twitopen {
