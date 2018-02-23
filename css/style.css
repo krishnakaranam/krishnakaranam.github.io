@@ -1,0 +1,364 @@
+* { box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+hr{
+  color:#000000;
+}
+
+html {
+  background: #F2F2F2;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card{
+  background: #f9f9f9;
+  width: 375px;
+  height: 667px;
+  overflow:hidden;
+}
+
+.add-btn {
+  position: relative;
+  height: 64px;
+  width: 64px;
+  background: #333333;
+  left: -30px;
+  top: -10px;
+  border-radius: 50%;
+  font-size: 20px;
+  line-height: 64px;
+  color: #000;
+}
+
+.add-btn a {
+  position: relative;
+  left: 35px;
+  top: 35px;
+  text-decoration: none;
+  color: #FFF;
+  display: block;
+}
+
+#closepost{
+	visibility: hidden;
+}
+#blackline{
+	visibility: hidden;
+}
+#fbicon{
+	visibility: hidden;
+}
+#twiticon{
+	visibility: hidden;
+}
+#facecheck{
+	visibility: hidden;
+}
+#twitcheck{
+	visibility: hidden;
+}
+#sharebt{
+	visibility: hidden;
+}
+#blacklineend{
+	visibility: hidden;
+}
+#shpost{
+	visibility: hidden;
+}
+
+.post .btn-close{
+  position: absolute;
+  margin: -40px 300px;
+  font-size: 32px;
+  text-decoration:none;
+  color:#444444;
+}
+
+.post .share {
+  position: absolute;
+  margin: -50px 15px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.post .share h6 {
+  font-size: 20px;
+  color: #555555;
+}
+
+.share-btn {
+  align-items: center;
+  justify-content: center;
+}
+
+.btn{
+  position: absolute;
+  text-align: center;
+  padding: 10px, 15px;
+  border: none;
+  border-radius: 35px;
+  margin-top: 108px;
+  margin-left: 15px;
+  background: #1729AF;
+  font-size: 20px;
+  font-weight: 500;
+  color: #cccccc;
+}
+
+.fb {
+  position: absolute;
+  margin: 25px 15px;
+  font-size: 32px;
+}
+
+.facebookcheck{
+  position: absolute;
+  margin: 38px 55px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.twitcheck{
+  position: absolute;
+  margin: 78px 55px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+input[type=checkbox] {
+  transform: scale(1.25);
+}
+
+.twit {
+  position: absolute;
+  font-size: 32px;
+  margin: 65px 15px;
+}
+
+.twit a{
+  text-decoration: none;
+  color: #1dace0;
+}
+
+.fb a{
+  text-decoration: none;
+  color: #2169dd;
+}
+
+
+.post{
+  width: 90%;
+  height: 110px;
+  background: #ffffff;
+  margin: 25px auto;
+  padding: 10px 0;
+  border: 1px solid rgba(0,0,0,0.03);
+  box-shadow: 0 10px 15px -1px rgba(0,0,0,0.1);
+}
+
+.post .avatar {
+  position: relative;
+  margin-left: 5px;
+  top: 0px; 
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.post .avatar img {
+  border-radius: 50%;
+  border: 4px solid #FFF;
+}
+
+.post .name {
+  position: absolute;
+  margin: -70px 55px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.post .write-post {
+  border: none;
+}
+
+.post .name h5 {
+  font-size: 20px;
+  color: #555555;
+}
+
+.post .attach {
+  position: absolute;
+  font-size: 32px;
+  margin: -45px 305px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.feed{
+  width: 90%;
+  height: auto;
+  background: #ffffff;
+  margin: 25px auto;
+  padding: 10px 0;
+  border: 1px solid rgba(0,0,0,0.03);
+  box-shadow: 0 10px 15px -1px rgba(0,0,0,0.1);
+}
+
+.feed .avatar {
+  position: relative;
+  margin-left: 5px;
+  top: 0px; 
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.feed .avatar img {
+  border-radius: 50%;
+  border: 4px solid #FFF;
+}
+
+.feed .name {
+  position: absolute;
+  margin: -70px 55px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.feed .name h5 {
+  font-size: 20px;
+  color: #555555;
+}
+
+.feed .clapcircle {
+  position: absolute;
+  font-size: 38px;
+  color: #444444;
+  margin: -47px 295px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.feed .clap {
+  position: absolute;
+  font-size: 24px;
+  color: #ffffff;
+  margin: -39px 300px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.images{
+  margin: -10px 0px 0px 0px;
+  height: 125px;
+  overflow: hidden;
+}
+
+.feedtext p{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  padding: 0px 10px 0px 10px;
+}
+
+.feed .img{
+  margin: 0px 0px 0px 0px;
+}
+
+.feed .expand {
+  position: absolute;
+  font-size: 24px;
+  color: #111111;
+  margin: -39px 305px;
+}
+
+.feed .like {
+  position: absolute;
+  font-size: 24px;
+  color: #2169dd;
+  margin: 8px 50px;
+}
+
+.feed .share {
+  position: absolute;
+  font-size: 24px;
+  color: #2169dd;
+  margin: 8px 150px;
+}
+
+.feed .open {
+  position: absolute;
+  font-size: 24px;
+  color: #2169dd;
+  margin: 8px 250px;
+}
+
+.feed .twitlike {
+  position: absolute;
+  font-size: 24px;
+  color: #1dace0;
+  margin: 2px 50px;
+}
+
+.feed .twitshare {
+  position: absolute;
+  font-size: 24px;
+  color: #1dace0;
+  margin: 2px 150px;
+}
+
+.feed .twitopen {
+  position: absolute;
+  font-size: 24px;
+  color: #1dace0;
+  margin: 2px 250px;
+}
+
+.feed .face{
+  padding: 12px 0px 0px 0px;
+}
+
+.feed .end{
+  padding: 4px 0px 0px 0px;
+}
+
+
+
+
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:#111;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+}
+
+.side-nav a{
+  padding:10px 10px 10px 30px;
+  text-decoration:none;
+  font-size:22px;
+  color:#ccc;
+  display:block;
+  transition:0.3s;
+}
+
+.side-nav a:hover{
+  color:#fff;
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:36px;
+  margin-left:50px;
+}
