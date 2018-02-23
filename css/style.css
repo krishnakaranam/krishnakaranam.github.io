@@ -3,12 +3,14 @@
 html, body {
   width: 100%;
   height: 100%;
-  margin: 0px;
-  padding: 0px;
+  margin: 0vw;
+  padding: 0vw;
 }
 
 hr{
   color:#000000;
+  padding-top: 0%;
+  padding-bottom: 0%;
 }
 
 html {
@@ -19,35 +21,37 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  overflow: hidden;
+  height: 100vh;
 }
 
 .card{
   background: #f9f9f9;
-  width: 375px;
-  height: 667px;
-  overflow:hidden;
+  width: 100vw;
+  height: 100vh;
 }
 
 .add-btn {
-  position: relative;
-  height: 64px;
-  width: 64px;
+  position: absolute;
+  height: 15vw;
+  width: 15vw;
   background: #333333;
-  left: -30px;
-  top: -10px;
+  margin: -4.5vw;
+  left: 0.1vw;
+  top: 0.1vw;
   border-radius: 50%;
-  font-size: 20px;
-  line-height: 64px;
+  font-size: 25vw;
+  line-height: 64vw;
   color: #000;
+  overflow:hidden;
 }
 
 .add-btn a {
-  position: relative;
-  left: 35px;
-  top: 35px;
+  position: absolute;
+  left: 7vw;
+  top: 6vh;
+  margin-top: -4.5vw;
   text-decoration: none;
+  font-size: 5vw;
   color: #FFF;
   display: block;
 }
@@ -82,20 +86,20 @@ html {
 
 .post .btn-close{
   position: absolute;
-  margin: -40px 300px;
-  font-size: 32px;
+  margin: -10vh 80vw;
+  font-size: 15vw;
   text-decoration:none;
   color:#444444;
 }
 
 .post .share {
   position: absolute;
-  margin: -50px 15px;
+  margin: -5vh 5vw;
   font-family: 'PT Sans', sans-serif;
 }
 
 .post .share h6 {
-  font-size: 20px;
+  font-size: 5vw;
   color: #555555;
 }
 
@@ -107,32 +111,32 @@ html {
 .btn{
   position: absolute;
   text-align: center;
-  padding: 10px, 15px;
+  padding: 10vw, 15vw;
   border: none;
-  border-radius: 35px;
-  margin-top: 108px;
-  margin-left: 15px;
+  border-radius: 35vw;
+  margin-top: 18vh;
+  margin-left: 5vw;
   background: #1729AF;
-  font-size: 20px;
+  font-size: 5vw;
   font-weight: 500;
   color: #cccccc;
 }
 
 .fb {
   position: absolute;
-  margin: 25px 15px;
-  font-size: 32px;
+  margin: 7vh 5vw;
+  font-size: 5vw;
 }
 
 .facebookcheck{
   position: absolute;
-  margin: 38px 55px;
+  margin: 7vh 10vw;
   font-family: 'PT Sans', sans-serif;
 }
 
 .twitcheck{
   position: absolute;
-  margin: 78px 55px;
+  margin: 12vh 10vw;
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -142,8 +146,8 @@ input[type=checkbox] {
 
 .twit {
   position: absolute;
-  font-size: 32px;
-  margin: 65px 15px;
+  font-size: 5vw;
+  margin: 12vh 5vw;
 }
 
 .twit a{
@@ -156,33 +160,34 @@ input[type=checkbox] {
   color: #2169dd;
 }
 
-
 .post{
-  width: 90%;
-  height: 110px;
+  width: 90vw;
+  height: 20vh;
   background: #ffffff;
-  margin: 25px auto;
-  padding: 10px 0;
-  border: 1px solid rgba(0,0,0,0.03);
-  box-shadow: 0 10px 15px -1px rgba(0,0,0,0.1);
+  margin: 2.5vw auto;
+  margin-top: 10vh;
+  border: 0.5vw solid rgba(0,0,0,0.03);
+  box-shadow: 0 1vh 8vw -0.5vh rgba(0,0,0,0.1);
 }
 
 .post .avatar {
   position: relative;
-  margin-left: 5px;
-  top: 0px; 
+  margin-left: 1vw;
+  margin-top: 1vh;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .post .avatar img {
   border-radius: 50%;
-  border: 4px solid #FFF;
+  border: 1vw solid #FFF;
 }
 
 .post .name {
-  position: absolute;
-  margin: -70px 55px;
+  position: relative;
+  margin-left: 15vw;
+  margin-top: -10vh;
+  padding-bottom: 0%;
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -191,138 +196,153 @@ input[type=checkbox] {
 }
 
 .post .name h5 {
-  font-size: 20px;
+  font-size: 5vw;
+  margin-top: 5vh;
+  padding-bottom: 0%;
   color: #555555;
 }
 
 .post .attach {
   position: absolute;
-  font-size: 32px;
-  margin: -45px 305px;
+  font-size: 7vw;
+  margin: -6vh 80vw;
   font-family: 'PT Sans', sans-serif;
 }
 
 .feed{
-  width: 90%;
+  width: 90vw;
   height: auto;
   background: #ffffff;
-  margin: 25px auto;
-  padding: 10px 0;
-  border: 1px solid rgba(0,0,0,0.03);
-  box-shadow: 0 10px 15px -1px rgba(0,0,0,0.1);
+  margin: 2.5vw auto;
+  margin-top: 2vh;
+  border: 0.5vw solid rgba(0,0,0,0.03);
+  box-shadow: 0 1vh 8vw -0.5vh rgba(0,0,0,0.1);
 }
 
 .feed .avatar {
   position: relative;
-  margin-left: 5px;
-  top: 0px; 
+  margin-left: 1vw;
+  margin-top: 1vh;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .feed .avatar img {
   border-radius: 50%;
-  border: 4px solid #FFF;
+  border: 1vw solid #FFF;
 }
 
 .feed .name {
-  position: absolute;
-  margin: -70px 55px;
+  position: relative;
+  margin-left: 15vw;
+  margin-top: -10vh;
+  padding-bottom: 0%;
   font-family: 'PT Sans', sans-serif;
 }
 
 .feed .name h5 {
-  font-size: 20px;
+  font-size: 5vw;
+  margin-top: 5vh;
+  padding-bottom: 0%;
   color: #555555;
 }
 
 .feed .clapcircle {
   position: absolute;
-  font-size: 38px;
+  font-size:12vw;
   color: #444444;
-  margin: -47px 295px;
+  margin: -10vh 75vw;
   font-family: 'PT Sans', sans-serif;
 }
 
 .feed .clap {
   position: absolute;
-  font-size: 24px;
+  font-size: 8vw;
   color: #ffffff;
-  margin: -39px 300px;
+  margin: -9vh 76vw;
   font-family: 'PT Sans', sans-serif;
 }
 
 .images{
-  margin: -10px 0px 0px 0px;
-  height: 125px;
+  margin: -1.4vh 0vw 0vw 0vw;
+  height: 25vh;
   overflow: hidden;
 }
 
 .feedtext p{
   font-family: 'PT Sans', sans-serif;
-  font-size: 16px;
-  padding: 0px 10px 0px 10px;
+  font-size: 5vw;
+  padding: 0vw 5vw 0vw 0vw;
 }
 
 .feed .img{
-  margin: 0px 0px 0px 0px;
+  margin: 0vw 0vw 0vw 0vw;
+  margin-top: -1vh;
+}
+
+.feed .facehr{
+  margin: 0vw 0vw 0vw 0vw;
+  margin-top: -5vh;
 }
 
 .feed .expand {
   position: absolute;
-  font-size: 24px;
+  font-size: 7vw;
   color: #111111;
-  margin: -39px 305px;
+  margin: -6vh 80vw;
 }
 
 .feed .like {
   position: absolute;
-  font-size: 24px;
+  font-size: 7vw;
   color: #2169dd;
-  margin: 8px 50px;
+  margin: 1vh 10vw;
 }
 
 .feed .share {
   position: absolute;
-  font-size: 24px;
+  font-size: 7vw;
   color: #2169dd;
-  margin: 8px 150px;
+  margin: 1vh 40vw;
 }
 
 .feed .open {
   position: absolute;
-  font-size: 24px;
+  font-size: 7vw;
   color: #2169dd;
-  margin: 8px 250px;
+  margin: 1vh 70vw;
 }
 
 .feed .twitlike {
   position: absolute;
-  font-size: 24px;
+  font-size: 7vw;
   color: #1dace0;
-  margin: 2px 50px;
+  margin: 1vh 10vw;
 }
 
 .feed .twitshare {
   position: absolute;
-  font-size: 24px;
+  font-size: 7vw;
   color: #1dace0;
-  margin: 2px 150px;
+  margin: 1vh 40vw;
 }
 
 .feed .twitopen {
   position: absolute;
-  font-size: 24px;
+  font-size: 7vw;
   color: #1dace0;
-  margin: 2px 250px;
+  margin: 1vh 70vw;
 }
 
 .feed .face{
-  padding: 12px 0px 0px 0px;
+  padding: 12vw 0vw 0vw 0vw;
 }
 
 .feed .end{
-  padding: 4px 0px 0px 0px;
+  padding: 2vw 0vw 0vw 0vw;
+}
+
+.feed .endhr{
 }
 
 
@@ -330,22 +350,22 @@ input[type=checkbox] {
 
 .side-nav{
   height:100%;
-  width:0;
+  width:0vw;
   position:fixed;
   z-index:1;
-  top:0;
-  left:0;
+  top:0vw;
+  left:0vw;
   background-color:#111;
   opacity:0.9;
   overflow-x:hidden;
-  padding-top:60px;
   transition:0.5s;
 }
 
 .side-nav a{
-  padding:10px 10px 10px 30px;
+  padding:5vw 15vw 1vw 5vw;
+  font-family: 'PT Sans', sans-serif;
   text-decoration:none;
-  font-size:22px;
+  font-size:6vw;
   color:#ccc;
   display:block;
   transition:0.3s;
@@ -357,8 +377,7 @@ input[type=checkbox] {
 
 .side-nav .btn-close{
   position:absolute;
-  top:0;
-  right:22px;
-  font-size:36px;
-  margin-left:50px;
+  top: 0.9vw;
+  margin-left: 35vw;
+  font-size:6vw;
 }

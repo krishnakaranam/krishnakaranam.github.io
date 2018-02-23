@@ -1,6 +1,6 @@
 function openSlideMenu(){
-      document.getElementById('side-menu').style.width = '250px';
-      document.getElementById('main').style.marginLeft = '250px';
+      document.getElementById('side-menu').style.width = '50vw';
+      document.getElementById('main').style.marginLeft = '50vw';
 }
 
 function closeSlideMenu(){
@@ -10,7 +10,7 @@ function closeSlideMenu(){
 
 function openWritePost(){
 	  document.getElementById("textpost").rows = "10";
-	  document.getElementById('writepost').style.height='390px';
+	  document.getElementById('writepost').style.height='60vh';
 	  document.getElementById('closepost').style.visibility='visible';
 	  document.getElementById('blackline').style.visibility='visible';
 	  document.getElementById('fbicon').style.visibility='visible';
@@ -23,7 +23,7 @@ function openWritePost(){
 
 function closeWritePost(){
 	  document.getElementById("textpost").rows = "2";
-	  document.getElementById('writepost').style.height='110px';
+	  document.getElementById('writepost').style.height='20vh';
 	  document.getElementById('closepost').style.visibility='hidden';
 	  document.getElementById('blackline').style.visibility='hidden';
 	  document.getElementById('fbicon').style.visibility='hidden';
